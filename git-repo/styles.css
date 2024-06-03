@@ -1,0 +1,28 @@
+body {
+    background-color: #0f0f0f;
+    color: #33ff33;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.terminal {
+    background-color: #1e1e1e;
+    border: 1px solid #33ff33;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.command {
+    color: #33ff33;
+    font-weight: bold;
+}
