@@ -10,7 +10,11 @@ body {
     height: 100vh;
     animation: fadeIn 2s ease-in-out;
 }
-
+#Section {
+    width: 20%;
+    border: double;
+    border-color: #33ff33;
+}
 @keyframes fadeIn {
     from {
         opacity: 0;
