@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="styles.css"> <!-- Vinculando el archivo CSS -->
 </head>
 <body>
-    <div class="container">
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('days100')">Days100</a></li>
+            <li><a href="#" onclick="showSection('contactos')">Contactos</a></li>
+        </ul>
+    </nav>
+    <div id="home" class="section">
         <h1>Bienvenido a mi sitio web</h1>
         <p>Esta es una web creada para subir Apuntes/Proyectos relacionados con la ciberseguridad.</p>
-        <div class="terminal">
-            <p>user@hacker:~$ <span class="command">echo "Hola Mundo!"</span></p>
-        </div>
+    </div>
+    <div id="days100" class="section" style="display:none;">
+        <h1>Days100</h1>
+        <p>Información sobre el reto de 100 días de código.</p>
+    </div>
+    <div id="contactos" class="section" style="display:none;">
+        <h1>Contactos</h1>
+        <p>Puedes contactarme en: <a href="mailto:email@example.com">email@example.com</a></p>
     </div>
     <script src="script.js"></script> <!-- Vinculando el archivo JS -->
 </body>
